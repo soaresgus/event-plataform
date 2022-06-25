@@ -26,8 +26,8 @@ export function Subscribe() {
     }
 
     return (
-        <div className="flex flex-col items-center bg-no-repeat bg-cover bg-[url(./src/assets/blur-background.png)]">
-            <div className="bg-[url(./src/assets/react-icon.png)] bg-top bg-no-repeat">
+        <div className="flex flex-col items-center bg-no-repeat bg-cover bg-[url(../../src/assets/blur-background.png)]">
+            <div className="bg-[url(../../src/assets/react-icon.png)] bg-top bg-no-repeat">
                 <div className="w-full max-w-[1216px] flex items-center gap-[210px] mt-20 mx-auto">
                     <div className="max-w-[624px]">
                         <Logo />
@@ -69,7 +69,7 @@ export function Subscribe() {
                     </div>
                 </div>
 
-                <img src="/src/assets/code-mackup.png" className="mt-10" />
+                <img src="../../src/assets/code-mackup.png" className="mt-10" />
             </div>
         </div>
     )
